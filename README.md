@@ -1,8 +1,3 @@
 # DEV_WEBIOS_2025_01
 
-Hello World
-
-Help me
-
-
-Git Vei PODE
+desenvovimeto web 2025 turma n2 primeiro semestre
