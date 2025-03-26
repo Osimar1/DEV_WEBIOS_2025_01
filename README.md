@@ -1,8 +1,6 @@
 # DEV_WEBIOS_2025_01
 
-Hello World
-
-Help me
-
-
-Git Vei PODE
+-casar
+-liderar
+-viagar
+-ler_livros
