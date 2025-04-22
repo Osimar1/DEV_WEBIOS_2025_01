@@ -1,59 +1,83 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
 </head>
+
 <body>
-    
-<form action="">
 
-    <label for="">Nome:</label>
-<input type="text" placeholder=" insira o nome de usuario">
-<br>
+    <form action="./BoasVindas.html" target="_blank">
 
-<br>
-<input type="radio" name="1"> <label for="">São Paulo</label><br>
-<input type="radio" name="1"> <label for="">Grande São Paulo</label><br>
-<input type="radio" name="1"> <label for="">Campinas</label>
-<br>
-<br>
-<br> 
-<input type="checkbox"> <label for="" style="color: brown;">Teste 1</label><br>
-<input type="checkbox"> <label for=""style="color: red;">Teste 2</label><br>
-<input type="checkbox"> <label for=""style="color:blueviolet;">Teste 3</label><br>
-<input type="checkbox"> <label for=""style="color: blue;">Teste 4</label><br>
-<br>
-<br>
-0km<input type="range"> 100km
-<br><br>
-<select name="" id=""> 
-    <option value="Amarelo">Amarelo</option>   
-    <option value="Branco">Branco</option>
-    <option value="Vermelho">Vermelho</option>
-</select>
-<Br>
-</Br>
+        <fieldset >
+            <legend>Digite o seu nome: </legend>
+            <label for="">Nome:</label>
+            <input type="text" placeholder=" insira o nome de usuario" required>  
+        </fieldset>
+        <br>
 
-<input type="text" list="busca">
-<datalist id="busca"> 
-    <option value="teste 1 "></option>
-    <option value="teste 2"></option>
-    <option value="teste 3"></option>
-    <option value="teste 4 "></option>
+        <br>
+        <fieldset>
+            <legend> Selecione o seu Estado </legend>
+            <input type="radio" name="1"> <label for="">São Paulo</label><br>
+            <input type="radio" name="1"> <label for="">Grande São Paulo</label><br>
+            <input type="radio" name="1"> <label for="">Campinas</label>
+        </fieldset>
+        <br>
+        <br>
+        <br>
+        <fieldset>
+            <legend> Quais os seus estilos musicais?</legend>
+            <input type="checkbox"> <label for="" style="color: brown;">Gospel</label><br>
+            <input type="checkbox"> <label for="" style="color: red;">Trap </label><br>
+            <input type="checkbox"> <label for="" style="color:blueviolet;">Rap </label><br>
+            <input type="checkbox"> <label for="" style="color: blue;">Clásico</label><br>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend> Quantos KM você mora da empresa?</legend>
+            0km<input type="range"> 100km
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend> Qual a sua cor?</legend>
+            <select name="" id="">
+                <option value="Amarelo">Amarelo</option>
+                <option value="Branco">Branco</option>
+                <option value="Vermelho">Vermelho</option>
+            </select>
+        </fieldset>
+        <Br>
+        </Br>
 
-</datalist>
+        <fieldset>
+            <legend> Escolha uma opção</legend>
+            <input type="text" list="busca">
+            <datalist id="busca">
+                <option value="teste 1 "></option>
+                <option value="teste 2"></option>
+                <option value="teste 3"></option>
+                <option value="teste 4"></option>
 
-<textarea  cols="30" rows="10"></textarea>
+            </datalist>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend> Qual a sua opniao sobre a empresa?</legend>
+            <textarea cols="50" rows="10"></textarea>
+        </fieldset>
 
-<br>
-<br>
-<Input type="button" value="Enviar">
+
+        <br>
+        <br>
+        <Input type="submit" value="Enviar" >
 
 
 
-</form>
+    </form>
 
 
 
@@ -62,4 +86,5 @@
 
 
 </body>
+
 </html>
