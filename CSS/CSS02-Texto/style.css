@@ -1,0 +1,22 @@
+h1{
+    color: rgb(200, 200, 240);
+    
+    background-color: #ff0099;
+    font-size: 150px;
+    font-weight: 900;
+    text-shadow: 1px 2px 5px red;
+    text-align: center;
+    
+}
+h2{
+    color: #ee9911;
+    background-color: #7d0f9f;
+    font-size: 130 px;
+    text-shadow: 1px 2px  red;
+}
+body{
+    font-family: "Dancing Script","arial",    cursive; 
+    font-weight: 100px;
+    font-style: italic;
+    line-height: 25px;
+}
