@@ -1,0 +1,16 @@
+div {
+    
+    background-color: aqua;
+}
+
+#div1{
+    color: brown;
+}
+#e2{
+    background-color: blueviolet;
+    color: chartreuse;
+}
+
+.EstiloTitulo{
+    text-shadow: 5px 5px 5px blue;
+}
