@@ -1,6 +1,9 @@
 body{
-    color: rgb(255, 3, 3);
-    
+    color: rgb(0, 255, 98);
+    background-image: url("./ios.png");
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: center;
 }
 #p1{
     border-width: 20px;
@@ -8,3 +11,12 @@ body{
     border-style: outset;
     padding: 50px;
 }
+img{
+    width: 500px;
+    right: 400px;
+    border-width: 10000%;
+    border-color: blue;
+    border-style: outset;
+    padding: 50px;
+}
+
