@@ -1,0 +1,16 @@
+p{
+    color: rgb(4, 4, 63);
+}
+#div1{
+    border: 10px outset blue;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#div2{
+    border: 20px outset red;
+    padding: 20px;
+    width: 300px;
+    height: 170px;
+    
+}
