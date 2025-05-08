@@ -1,6 +1,17 @@
 p{
     color: rgb(4, 4, 63);
 }
+html{
+    margin: 25px;
+}
+
+*{
+margin: auto;
+width: 70%;
+}
+
+
+
 #div1{
     border: 10px outset blue;
     padding: 10px;
@@ -12,5 +23,12 @@ p{
     padding: 20px;
     width: 300px;
     height: 170px;
+    
+}
+
+#div3{
+    border: 30px solid yellow;
+    margin: 25%;
+   padding: 10px;
     
 }
