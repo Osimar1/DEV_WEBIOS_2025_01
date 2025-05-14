@@ -1,0 +1,49 @@
+.Divs{
+    border: 2px solid black;
+    clear: both;
+    height: 500px;
+    margin-bottom: 30px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+   
+}
+
+#imgSoraia{
+    width: 250px; 
+    height: ;
+    float: left;
+    padding-right: 40px;
+    
+    
+
+}
+
+#imgNaruto{
+    width: 350px;
+    height: ;
+    float: right;
+    
+}
+
+#imgGod{
+width: 350px;
+right: 300px;
+float: left;
+
+}
+
+#imgRDR{
+    width: 350px;
+    right: 300px;
+    float: right;
+    ;
+}
+
+#imgX{
+    width: 350px;
+    right: 300px;
+    float: center;
+    
+}

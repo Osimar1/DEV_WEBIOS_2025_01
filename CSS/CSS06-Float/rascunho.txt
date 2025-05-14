@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div>
+        <img src="./IMG/god-of-war-listing-thumb-01-ps4-us-12jun17.webp" alt="imagem de god of war" style="width: 500px; right: 500px; float: left;">
+
+        <p style="border: 2px solid green;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi esse sed porro reiciendis natus eaque at alias, tenetur, nam odio perferendis tempore. Aspernatur sunt accusamus, maxime quis placeat atque est?</p>
+
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, voluptates autem nemo tempora tenetur nihil? Obcaecati sunt voluptatem fuga officia molestias eum quia accusantium repellat quod consequuntur necessitatibus, quae quo?</p>
+        <p style="clear: both;"> Magni asperiores praesentium ducimus minus doloribus nesciunt incidunt ab. Soluta iusto, quae mollitia dignissimos expedita magni ipsa autem voluptatem quam voluptates facilis atque maxime, necessitatibus a aspernatur minus. Amet, non.</p>
+
+    </div>
+
+
+
+
+
+
+    
+</body>
+</html>
