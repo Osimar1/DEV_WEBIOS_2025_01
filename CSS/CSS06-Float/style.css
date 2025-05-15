@@ -1,3 +1,8 @@
+*{
+    margin: auto;
+    width: 90%;
+}
+
 .Divs{
     border: 2px solid black;
     clear: both;
@@ -12,38 +17,87 @@
 
 #imgSoraia{
     width: 250px; 
-    height: ;
+    
     float: left;
     padding-right: 40px;
-    
-    
+    border-radius: 5%;
+    /* transition: width 20s, reight 20s, transform 20s; */
+}
 
+#TabelaSoraia{
+    width: 50%;
+    border: 1px solid;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+td{
+    width: 50%;
+    border: 1px solid rgb(154, 2, 255);
+}
+
+
+
+/* #imgSoraia:hover{
+    width: 500px;
+    right: 300px;
+    transform: rotate(3000deg);
+} */
+
+#ParagrafoSoraia::first-line{
+    font-size: 65px;
+    color: rgb(255, 0, 0);
+    font-family: "Dancing Script", cursive;
 }
 
 #imgNaruto{
     width: 350px;
-    height: ;
+    height: 10;
     float: right;
-    
+    transition: opacity 1s;
+}
+#imgNaruto:hover{
+    opacity: 3%;
 }
 
+#ParagrafoNaruto::first-letter{
+    font-size: 65px;
+    color: blue;
+    font-family: "Dancing Script", cursive;
+  
+  
+}
+
+
 #imgGod{
-width: 350px;
+width: 500px;
 right: 300px;
 float: left;
 
 }
 
 #imgRDR{
-    width: 350px;
+    width: 500px;
     right: 300px;
     float: right;
     ;
 }
 
 #imgX{
-    width: 350px;
+    width: 300px;
     right: 300px;
-    float: center;
+    margin-left: 13%;
+      
+}
+
+#ParagrafoSoraia{
+    color:chartreuse;
     
+}
+
+
+#ParagrafoSoraia:hover{
+    color: red;
+    background-color: blue;
 }
