@@ -1,0 +1,14 @@
+#conteiner{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap-reverse;
+}
+
+
+.itens{
+    border: 1px solid red;
+    width: 50px;
+    right: 500px;
+}
+
+
