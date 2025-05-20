@@ -1,14 +1,23 @@
 #conteiner{
 display: flex;
 flex-direction: row;
-flex-wrap: wrap-reverse;
+flex-wrap: wrap;
+justify-content: space-evenly;
+border: 2px solid blueviolet;
+height: 200px;
+align-items: center;
+
 }
 
 
 .itens{
     border: 1px solid red;
-    width: 50px;
+    width: 50px;  
     right: 500px;
 }
-
+ .div1:hover{
+   flex-grow: 50;
+   transition: 100s
+   
+ }
 
