@@ -1,0 +1,9 @@
+.container{
+    border: 1px solid rgb(139, 195, 27);
+}
+.itens{
+    width: 20%;
+    height: 20%;
+    border: 1px solid rgb(75, 3, 148);
+    font-size: 150%;
+}
