@@ -1,0 +1,58 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas com larguras iguais */
+    grid-template-rows: repeat(6, auto); /* 6 linhas com alturas automáticas */
+    gap: 10px; /* Espaçamento entre os itens */
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  /* Primeira linha */
+  .item-1 {
+    grid-column: span 2; /* Ocupa 2 colunas */
+  }
+  
+  .item-2 {
+    grid-column: span 2; /* Ocupa 2 colunas */
+  }
+  
+  /* Segunda linha */
+  .item-3 {
+    grid-column: 1 / -1; /* Ocupa todas as colunas */
+  }
+  
+  /* Terceira linha */
+  .item-4 {
+    grid-column: 1 / -1; /* Ocupa todas as colunas */
+  }
+  
+  /* Quarta linha */
+  .item-5 {
+    grid-column: 2 / 4; /* Ocupa a segunda e terceira coluna */
+  }
+  
+  /* Quinta linha */
+  .item-6 {
+    grid-column: 1 / -1; /* Ocupa todas as colunas */
+  }
+  
+  /* Sexta linha */
+  .item-7 {
+    grid-column: span 2; /* Ocupa 2 colunas */
+  }
+  
+  .item-8 {
+    grid-column: span 1; /* Ocupa 1 coluna */
+  }
+  
+  .item-9 {
+    grid-column: span 1; /* Ocupa 1 coluna */
+  }
+  
+  /* Estilos básicos para os itens (apenas para visualização) */
+  .item {
+    background-color: #f0f0f0;
+    border: 1px solid #999;
+    padding: 20px;
+    text-align: center;
+  }
