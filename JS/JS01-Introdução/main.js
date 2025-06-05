@@ -22,13 +22,52 @@ console.log(idade)
 
 var nome = "Lorem"
 var nome2 = "Tardis"
+var nome3 = "Trenzalore"
 
 console.log(nome)
 console.log(nome2)
 
 
-VAR // Flexivel e com menos regras (posso alterar o valor inicial de u,a var e recriar a mesma em outras partes do codigo)
+//VAR // Flexivel e com menos regras (posso alterar o valor inicial de u,a var e recriar a mesma em outras partes do codigo)
 
-LET // Você não pode recriar a mesma em outras partes do cidugo com o mesmo noem, mas pode chamar e alterar o valro inicial 
+//LET // Você não pode recriar a mesma em outras partes do cidugo com o mesmo noem, mas pode chamar e alterar o valro inicial 
 
-Const // Você não pode recruar a mesma em outaras partes do codigo enão pode alterar o vallor inicial dela garantindo a confiança do dado que está sendo utilizado no decorrer do seu codigo 
+//Const // Você não pode recruar a mesma em outaras partes do codigo enão pode alterar o vallor inicial dela garantindo a confiança do dado que está sendo utilizado no decorrer do seu codigo 
+
+console.log("Aluno", "Tardis") // Modo de Concaternar 1
+
+console.log ("Aluno " + nome + " e Aluno " + nome2 + " tem um Total de " + nome3 + " Dinheiro " ) // Modo de Concaternar 1
+
+//Templete String
+
+console.log(`Aluno ${nome} e Aluno ${nome2} tem um total de ${nome3} dinheiro `) // Modo de Concaternar 1
+
+//Operadores
+var valor1 = 5
+var valor2 = 5
+
+console.log( valor1 * valor2)
+console.log( valor1 - valor2)
+console.log( valor1 + valor2)
+console.log( valor1 / valor2)
+console.log( valor1 % valor2)
+console.log( valor1 ** valor2)
+
+//Operadores Relacionais
+
+console.log(5 == 5)
+console.log(5 === 5)
+console.log(5 == "5")
+console.log(5 != 5)
+console.log(5 < 5)
+console.log(5 <= 5)
+console.log(5 > 5)
+console.log(5 >= 5)
+console.log('Miih' <= "Miih")
+
+let temCamisa = false
+let temCracha = true
+console.log(temCamisa)
+console.log(temCamisa)
+console.log(temCamisa == true && temCracha == true);
+console.log(temCamisa == true || temCamisa == true)
