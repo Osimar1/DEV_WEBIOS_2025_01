@@ -71,3 +71,24 @@ console.log(temCamisa)
 console.log(temCamisa)
 console.log(temCamisa == true && temCracha == true);
 console.log(temCamisa == true || temCamisa == true)
+
+// Operador de atribuição
+var x = 3
+var y = 2
+x = x + y
+// x += y formato contraido
+// x = 3 + 2 
+console.log(x)
+// log > para monstrar resultados, mensagens do sistema 
+// clear> Limpar o console e deixar disponivel para novas mensagens
+
+
+console.clear()
+
+console.log( "Está tudo limpo")
+console.log( "Hello World" )
+
+console.error("Não use essa tela, você pode ser punido por isso")
+
+console.warn( "mas apresenta uma mensagem em amarelo")
+
